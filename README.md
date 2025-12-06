@@ -1,16 +1,56 @@
-# React + Vite
+# 📂 Project Manager — Task & Project Tracking App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔗 **Live Demo:** https://project-manager-jade-nine.vercel.app
 
-Currently, two official plugins are available:
+A clean and responsive **Project Manager App** built with React to help you organize projects and manage tasks efficiently. Create projects, add tasks inside each project, mark them as completed, and keep everything synced with local storage.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+### ✅ Project Management
+- Create new projects  
+- View project details  
+- Delete projects  
 
-## Expanding the ESLint configuration
+### 📝 Task Management
+- Add tasks under each project  
+- Mark tasks as completed  
+- Delete tasks  
+- Auto-organized per project  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 💾 Data Persistence
+- Projects & tasks are saved in **Local Storage**(Upcoming update)  
+- Data stays even after refreshing the page (Upcoming update)  
+
+### 📱 Responsive UI
+- Works smoothly on desktop, tablet, and mobile
+
+---
+
+## 🛠️ Tech Stack
+
+- **React**  
+- **JavaScript (ES6+)**  
+- **Tailwind CSS**  
+- **Vite** (build tool)  
+- **Vercel** (deployment)
+
+---
+
+## 📂 Installation & Setup
+
+Clone and run the project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/project-manager.git
+
+# Navigate into the project directory
+cd project-manager
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
